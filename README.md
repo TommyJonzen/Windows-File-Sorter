@@ -29,7 +29,8 @@ Additionally for the purposes of this script you need to end all filepaths with 
 
 eg. if your files were stored at <b>C:\Users\liam.n\documents\mystuff</b>
 Then you should edit the line to look like:
-```files_to_sort = 'C:\\Users\\liam.n\\documents\\mystuff\\'
+```
+files_to_sort = 'C:\\Users\\liam.n\\documents\\mystuff\\'
 ```
 
 That's all that is required in file-sort.py!
