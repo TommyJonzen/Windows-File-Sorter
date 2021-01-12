@@ -1,9 +1,8 @@
 import os
 import sorterfunctions
-from uservarariables import FileLocation
 
 # Directory where files to be moved from and destinations are. Use double \\ and end with double \\
-files_to_sort = 'C:\\Users\\tommy.clarke\\Documents\\Bot\\Sorter\\TBS\\'
+files_to_sort = 'C:\\Users\\user.name\\Documents\\files\\stuff\\'
 
 
 # Calls sort function to sort and move files based on filename

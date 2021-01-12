@@ -3,6 +3,7 @@ import os
 import datetime
 
 
+# IGNORE THIS FUNCTION
 # Function to move files from source directory to the destination directory defined in sort function
 def move(filename, location_to_sort_from, destination):
 
@@ -53,15 +54,16 @@ def move(filename, location_to_sort_from, destination):
             move(filename, location_to_sort_from, destination)
 
 
+# Edit sort if statements to your needs
 # Sorts files into correct directory based on filename
 def sort(filename, location_to_sort_from):
 
     # All conditions for moving files to appropriate directory
-    if 'DELD' in filename:
-        destination = 'C:\\Users\\tommy.clarke\\Documents\\Bot\\Sorter\\Destination\\delivery-reports\\'
+    if 'delivery' in filename:
+        destination = 'C:\\Users\\user.name\\Documents\\delivery-reports\\'
 
     elif 'notification' in filename:
-        destination = 'C:\\Users\\tommy.clarke\\Documents\\Bot\\Sorter\\Destination\\Sales-Notes\\'
+        destination = 'C:\\Users\\user.name\\Documents\\Sales-Notes\\'
 
     else:
         return
