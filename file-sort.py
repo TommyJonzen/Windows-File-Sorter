@@ -1,7 +1,7 @@
 import os
 import sorterfunctions
 
-# Directory where files to be moved from and destinations are. Use double \\ and end with double \\
+# Directory containing files to be moved. Use double \\ and end with double \\
 files_to_sort = 'C:\\Users\\user.name\\Documents\\files\\stuff\\'
 
 
