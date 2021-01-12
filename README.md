@@ -98,7 +98,8 @@ However we only have one of this file type in the folder so we can just sort it 
 If you had more than one type of this file type in your folder to be sorted. Say you also had monthly financial spreadsheets (aprilfinance.xlsx) 
 then you could use 'and' statements:
 
-``` elif 'xlsx' and 'stock' in filename:
+``` 
+   elif 'xlsx' and 'stock' in filename:
         destination = 'C:\\Users\\user.name\\Documents\\stocksheets\\'   
 ```
 
