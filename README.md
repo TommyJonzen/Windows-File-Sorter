@@ -24,11 +24,13 @@ files_to_sort = 'C:\\Users\\user.name\\Documents\\files\\stuff\\'
 
 - Edit the filepath for the variable 'files_to_sort' to be the filepath for the directory containing the files you want sorted. 
 
-<span style="color:red">Please note that due to how python interprets the '\' character you need to use double '\\' in all instances where you are inputting filepaths.
-Additionally for the purposes of this script you need to end all filepaths with a double \\.</span> 
+Please note that due to how python interprets the backslash character you need to use double '\\\\' in all instances where you are inputting filepaths.
+Additionally for the purposes of this script you need to end all filepaths with a double \\\\.
 
 eg. if your files were stored at <b>C:\Users\liam.n\documents\mystuff</b>
-Then you should edit the line to look like <b>files_to_sort = C:\\Users\\liam.n\\documents\\mystuff\\'</b>
+Then you should edit the line to look like:
+```files_to_sort = 'C:\\Users\\liam.n\\documents\\mystuff\\'
+```
 
 That's all that is required in file-sort.py!
 
@@ -53,7 +55,7 @@ You will need to edit the if statements within this sort function to suit your o
        return
 ```
 
-span style="color:red">Note that the filepaths contain double \\ as separators and end with a double \\. This is important</span> 
+Note that the filepaths contain double \\\\ as separators and end with a double \\\\. This is important.
 
 
 In the sort function the only thing you need to edit are the 'if' and 'elif' statements (you can add as many elif statements as you like), do not edit the else statement.
@@ -62,13 +64,13 @@ This script works by matching patterns you give in the if statements to the file
 is in the file name the script knows to move the file from the sort folder to a new destination 'C:\\Users\\user.name\\Documents\\delivery-reports\\'
 
 ##### Say you have 3 types of files in your sort folder:
-Stock Report PDFs (stockreport1.pdf, stockreport2.pdf, stockreport3.pdf, etc.)
-Order PDFs (order1.pdf, order2.pdf, order3.pdf, etc.) 
-Stock Spreadsheets (stock1.xlsx, stock2.xlsx, stock3.xlsx)
+- Stock Report PDFs (stockreport1.pdf, stockreport2.pdf, stockreport3.pdf, etc.)
+- Order PDFs (order1.pdf, order2.pdf, order3.pdf, etc.) 
+- Stock Spreadsheets (stock1.xlsx, stock2.xlsx, stock3.xlsx)
 
-You want Stock Report PDFs moved to: C:\\Users\\user.name\\Documents\\stockpdfs\\
-You want Order PDFs moved to: C:\\Users\\user.name\\Documents\\orderpdfs\\
-You want Stock Spreadsheets moved to: C:\\Users\\user.name\\Documents\\stocksheets\\
+- You want Stock Report PDFs moved to: C:\\Users\\user.name\\Documents\\stockpdfs\\
+- You want Order PDFs moved to: C:\\Users\\user.name\\Documents\\orderpdfs\\
+- You want Stock Spreadsheets moved to: C:\\Users\\user.name\\Documents\\stocksheets\\
 
 Your 'sort' function if statements could then look like:
 
