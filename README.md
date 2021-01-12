@@ -18,7 +18,8 @@ There are two important files in this repo that will require some customisation 
 
 - Open file-sort.py in your favourite text editor. After the import calls at the top of the file you will see the below:
 
-```Directory containing files to be moved. Use double \\ and end with double \\
+```
+Directory containing files to be moved. Use double \\ and end with double \\
 files_to_sort = 'C:\\Users\\user.name\\Documents\\files\\stuff\\'
 ```
 
